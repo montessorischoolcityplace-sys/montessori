@@ -11,13 +11,13 @@ import {
   deactivateAdmin,
   suspendAdmin,
   deleteAdmin,
-} from "@/lib/admins/admin.repository";
+} from "@/lib/admin/admin.repository";
 import {
   AdminLevel,
   AdminStatus,
   CreateAdminInput,
   UpdateAdminInput,
-} from "@/lib/admins/admin.type";
+} from "@/lib/admin/admin.type";
 
 export async function GET(req: NextRequest) {
   try {
